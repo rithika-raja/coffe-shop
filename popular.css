@@ -1,0 +1,110 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.popular{
+    background-color:#ffffff ;
+}
+/* Step 3 : componentContainer */
+.popularContainer{
+    /* background-color: #0000ff; */
+}
+
+/* Step 4 : row 1*/
+/* .headingBody {
+    background-color: #f18b8b;
+} */
+
+/* Step 5 : column */
+/* .headingBlock {
+    background-color: #b8fc74;
+} */
+
+/* Step 6 : subColumn */
+/* .headingBox {
+    background-color: #f4f44c;
+    width: 100%;
+    height: 100%;
+} */
+
+/* Step 7 : contentContainer */
+/* .headingBox figure {
+    background-color: #6780ef;
+}
+
+.headingBox figure img {
+    background-color: #62625a;
+    height: 4rem;
+} */
+
+/* .headingBox h2 {
+    background-color: #f296c7;
+    font-family: "Merienda", cursive;
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+} */
+
+/* Step 4 : row 2 */
+.popularBody{
+    /* background-color: #d2691e; */
+    gap: 1rem;
+    padding: 0rem 9rem;
+}
+
+/* Step 5 : column [6] */
+.popularBlock{
+    /* background-color: #f1af8e; */
+}
+
+/* Step 6 : subColumn [6] */
+.popularBox{
+    /* background-color: #7fff00; */
+}
+
+/* card */
+/* cardheader [6] */
+.popularBox .cardHeader{
+    /* background-color: #ac2ee6; */
+}
+
+/* Step 7 : contentContainer */
+.popularBox .cardHeader figure{
+    /* background-color: #1dffd9; */
+}
+.popularBox .cardHeader figure img{
+    /* background-color: #ffd91d; */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+/* cardMain [6] */
+.popular .cardMain{
+    /* background-color: yellowgreen; */
+}
+/* Step 7 : contentContainer */
+.popular .cardMain h3{
+    /* background-color: rgb(137, 55, 252); */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+}

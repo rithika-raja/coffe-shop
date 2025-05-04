@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PROJECT TITLE -->
+    <title>Coffee shop website using bootstrap</title>
+    <!-- FAVORITE ICON -->
+    <link rel="shortcut icon" href="./assests/images/logo.png" type="image/x-icon">
+    <!-- LINK CSS STYLE SHEET -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- LINKING FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./contact.css">
+
+</head>
+
+<body>
+    <footer> <!-- 1.parentContainer -->
+        <div class="contact componentSpacing" id="contact"> <!-- 2.component -->
+            <div class="contactContainer screenSize"> <!-- 3.componentContainer -->
+                <div class="headingBody grid-1"> <!-- 4.row 1 -->
+                    <div class="headingBlock dflex-col"> <!-- 5.column -->
+                        <div class="headingBox dflex-col"> <!-- 6.subColumn -->
+                            <figure>
+                                <img src="./assests/images/heading-img.jpg.png" alt="heading-img">
+                                <!-- 7.contentContainer -->
+                            </figure>
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactBody grid-2"> <!-- 4.row 2 -->
+                    <div class="imageBlock"> <!-- 5.column 1 -->
+                        <div class="imageBox dflex"> <!-- 6.subColumn -->
+                            <figure>
+                                <img src="./assests/images/contact-img.jpg.jpeg" alt="contact-img">
+                                <!-- 7.contentContainer -->
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="contactBlock dflex-col"> <!-- 5.column 2 -->
+                        <div class="contactBox"> <!-- 6.subColumn -->
+                            <h3>Book A Table</h3> <!-- 7.contentContainer -->
+                            <form action="#" method="post"> <!-- 7.contentContainer -->
+                                <div class="formGroup">
+                                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                                </div>
+                                <div class="formGroup">
+                                    <input type="tel" id="mobile" name="Number" placeholder="Enter Your Number">
+                                </div>
+                                <div class="formGroup">
+                                    <input type="number" id="guests" name="Guests" placeholder="How Many Guests" min="1"
+                                        max="50" required>
+                                </div>
+                                <div class="formGroup btnFg">
+                                    <button class="primary_button" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

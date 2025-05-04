@@ -1,0 +1,84 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.ourMenu{
+    background-color: #ffffff;
+}
+/* Step 3 : componentContainer */
+.menuContainer{
+    /* background-color: #ffebcd; */
+}
+/* Step 4 : row */
+.menuBody{
+    /* background-color: #dfffff; */
+}
+/* Step 5 : column 1 */
+.imageBlock{
+    /* background-color: rgb(192, 255, 67); */
+}
+/* Step 6 : subColumn */
+.imageBox{
+    /* background-color: #fe9101; */
+}
+/* Step 7 : contentContainer */
+.imageBox figure{
+    /* background-color: #deb887; */
+}
+.imageBox figure img{
+    /* background-color: #ff7f50; */
+}
+
+/* Step 5 : column 2 */
+.menuBlock{
+    /* background-color: #ee82ee; */
+}
+/* Step 6 : subColumn */
+.menuBox{
+    /* background-color: #ffff00; */
+    text-align: left;
+    padding: 0rem 1.5rem;
+}
+/* Step 7 : contentContainer */
+.menuBox h2{
+    /* background-color: #fec67d; */
+    font-family: "Merienda", cursive;
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    /* letter-spacing: 0.1rem; */
+    margin-bottom: 1rem;
+}
+.menuBox p{
+    /* background-color: #82ee99; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 2rem;
+}
+.menuBox button{
+    /* background-color: #0066ff; */
+}
+
+@media (width =360px) {
+    .menuBox {
+        text-align: center;
+      }
+  }

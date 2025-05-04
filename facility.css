@@ -1,0 +1,130 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+
+/* Step 2 : component */
+.facility {
+    background-color: #ffffff;    
+    /* background-color: aqua; */
+}
+
+/* Step 3 : componentContainer */
+.facilityContainer {
+    /* background-color: #c8cccb; */
+}
+
+/* Step 4 : row 1*/
+/* .headingBody {
+    background-color: #f18b8b;
+} */
+
+/* Step 5 : column
+.headingBlock {
+    background-color: #b8fc74;
+} */
+
+/* Step 6 : subColumn
+.headingBox {
+    background-color: #f4f44c;
+    width: 100%;
+    height: 100%;
+} */
+
+/* Step 7 : contentContainer
+.headingBox figure {
+    background-color: #6780ef;
+} */
+
+/* .headingBox figure img {
+    background-color: #62625a;
+    height: 4rem;
+} */
+
+/* .headingBox h2 {
+    background-color: #f296c7;
+    font-family: "Merienda", cursive;
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+} */
+
+/* Step 4 : row 2*/
+.facilityBody {
+    /* background-color: #8094ef; */
+}
+
+/* Step 5 : column [4]*/
+.facilityBlock {
+    /* background-color: #f77a05; */
+}
+
+/* Step 6 : subColumn [4]*/
+.facilityBox {
+    /* background-color: #677230; */
+    width: 100%;
+    height: 100%;
+}
+
+/* card */
+/* card header */
+.facilityBox .cardHeader {
+    /* background-color: #763923; */
+    width: 100%;
+    height: auto;
+    padding: 1rem 0rem;
+}
+
+/* Step 7 : contentContainer [4] */
+.facility .cardHeader figure {
+    /* background-color: #465183; */
+}
+
+.facility .cardHeader figure img {
+    /* background-color: #5b0383; */
+}
+
+/* card main */
+.facility .cardMain {
+    /* background-color: #e9967a; */
+    width: 100%;
+    height: auto;
+}
+
+/* Step 7 : contentContainer [4] */
+.facility .cardMain h3 {
+    /* background-color: #92f0f4; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 0.5rem;
+}
+
+.facility .cardMain p {
+    /* background-color: #e7f439; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}

@@ -1,0 +1,108 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.contact{
+    background-color: #ffffff;
+}
+/* Step 3 : componentContainer */
+.contactContainer{
+    /* background-color: #c1ddf5; */
+}
+
+/* HEADING IN DEFAULT CSS */
+/* Step 4 : row 1 */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 4 : row 2 */
+.contactBody{
+    /* background-color: #ffebcd; */
+    padding: 0rem 2rem;
+}
+/* Step 5 : column 1 */
+.imageBlock{
+    /* background-color: #8a2be2; */
+}
+/* Step 6 : subColumn */
+.imageBox{
+    /* background-color: #03ffff; */
+}
+/* Step 7 : contentContainer */
+.imageBox figure{
+    /* background-color: #035bff; */
+}
+.imageBox figure img{
+    /* background-color: #03ff18; */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+/* Step 5 : column 2 */
+.contactBlock{
+    /* background-color: #d9bff2; */
+    width: 100%;
+    height: auto;
+}
+/* Step 6 : subColumn */
+.contactBox{
+    /* background-color: #38f548; */
+    border: #212529 solid 0.1rem;
+    width: 100%;
+}
+/* Step 7 : contentContainer */
+.contactBox h3{
+    /* background-color: #b938f5; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.75;
+    /* letter-spacing: 0.5rem; */
+}
+/* form */
+.contactBox form{
+    /* background-color: #f5f538; */
+}
+.contactBox form .formGroup{
+    /* background-color: #ef38f5; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1.5;
+    /* letter-spacing: 0.5rem; */
+    padding: 0rem 3rem 3rem;
+}
+.contactBox form .formGroup input{
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2.5rem;
+    font-weight: 100;
+    line-height: 2;
+    border: #212529 solid 0.1rem;
+    width: 100%;
+    padding: 0rem 2rem;
+    /* letter-spacing: 0.5rem; */
+}
+.contactBox form .btnFg{
+    /* background-color: #532554; */
+}
+.contactBox form .btnFg button{
+    /* background-color: #d61ada; */
+    margin-bottom: 0rem;
+}

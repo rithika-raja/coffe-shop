@@ -1,0 +1,109 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+
+/* Step 2 : component */
+.team {
+    background-color: #ffffff;
+}
+
+/* Step 3 : componentContainer */
+.teamContainer {
+    /* background-color: #7a3b3b; */
+}
+
+/* Step 4 : row 1
+.headingBody {
+    background-color: #f18b8b;
+} */
+
+/* Step 5 : column */
+/* .headingBlock {
+    background-color: #b8fc74;
+} */
+
+/* Step 6 : subColumn */
+/* .headingBox {
+    background-color: #f4f44c;
+    width: 100%;
+    height: 100%;
+} */
+
+/* Step 7 : contentContainer */
+/* .headingBox figure {
+    background-color: #6780ef;
+} */
+
+/* .headingBox figure img {
+    background-color: #62625a;
+    height: 4rem;
+}
+
+.headingBox h2 {
+    background-color: #f296c7;
+    font-family: "Merienda", cursive;
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    lett/er-spacing: 0.1rem;
+    margin-bottom: 1rem;
+} */
+
+/* Step 4 : row 2 */
+.teamBody {
+    /* background-color: #6780ef; */
+    padding: 0rem 9rem;
+    row-gap: 1.5rem;
+}
+
+/* Step 5 : column [6] */
+.teamBlock {
+    /* background-color: #f18b8b; */
+}
+
+/* Step 6 : subColumn [6] */
+.teamBox{
+    /* background-color: #f4f44c; */
+}
+/* card */
+/* cardheader */
+.teamBox .cardHeader{
+    /* background-color: #7fff00; */
+}
+/* Step 7 : contentContainer [6] */
+.teamBox .cardHeader figure{
+    /* background-color: #ff9900; */
+}
+.teamBox .cardHeader figure img{
+    /* background-color: #819a67; */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+/* cardMain */
+.teamBox .cardMain{
+    /* background-color: #8b008b; */
+}
+/* Step 7 : contentContainer [6] */
+.teamBox .cardMain h3{
+    /* background-color: #de57de; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+}

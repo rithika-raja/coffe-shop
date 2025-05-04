@@ -1,0 +1,148 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.contactIcons {
+    background-color: #ffffff;
+}
+
+/* Step 3 : componentContainer */
+.coniconContainer {
+    /* background-color: #ffebcd; */
+}
+
+/* Step 4 : row 1 */
+.coniconBody {
+    /* background-color: #ff7f50; */
+    padding: 1rem 2rem 4rem;
+}
+
+/* Step 5 : column [4]*/
+.coniconBlock {
+    /* background-color: #b172de; */
+}
+
+/* Step 6 : subColumn [4] */
+.coniconBox {
+    /* background-color: #e37cff; */
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* card */
+/* cardHeader */
+.coniconBox .cardHeader {
+    background-color: #BE9C79;
+    /* background-color: aqua; */
+    /* width: 30%; */
+    aspect-ratio: 1 /1 ;
+    border-radius: 100%;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Step 7 : contentContainer [4] */
+.coniconBox .cardHeader i {
+    /* background-color:#f47d06; */
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+/* cardMain */
+/* Step 7 : contentContainer [4] */
+.coniconBox .cardMain {
+    /* background-color: #ff1493; */
+    width: 100%;
+    height: auto;
+}
+
+.coniconBox .cardMain h3 {
+    /* background-color: #d8ff4d; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* letter-spacing: 0.5rem; */
+    margin-bottom: 1rem;
+}
+
+.coniconBox .cardMain p {
+    /* background-color: #60df2e; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+
+/* Step 4 : row 2*/
+.horizonBody {
+    /* background-color: black; */
+    /* width: 100%;
+    height: 0.15rem;
+    margin-bottom: 2rem; */
+}
+
+.horizonBlock {
+    /* background-color: #f0f8ff; */
+    background-color: black;
+    width: 100%;
+    height: 0.175rem;
+    margin-bottom: 2rem;
+}
+
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 4 : row 3 */
+.copyrightBody {
+    /* background-color: #f5a5cf; */
+}
+
+/* Step 5 : column 1 */
+.copyrightBlock {
+    /* background-color: #90d9d9; */
+}
+
+/* Step 6 : subColumn 1 */
+.copyrightBox {
+    /* background-color: #885a5a; */
+}
+
+/* Step 7 : contentContainer 1 */
+.copyrightBox p {
+    /* background-color: #ffe600; */
+    font-family: "Nunito", sans-serif;
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.3;
+    text-transform: capitalize;
+    /* letter-spacing: 0.5rem; */
+    /* margin-bottom: 1rem; */
+}
+
+.copyrightBox span {
+    color: #BE9C79;
+}

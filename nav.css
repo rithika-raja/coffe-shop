@@ -1,0 +1,158 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+.navBar {
+    /* background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2.35rem 0rem;
+}
+
+/* Step 3 : componentContainer */
+.navContainer {
+    /* background-color: #faebd7; */
+}
+
+/* Step 4 : row */
+.navBody {
+    /* background-color: #7fffd4; */
+}
+
+/* Step 5 : column 1 */
+
+.logoBlock {
+    /* background-color: #a52a2a; */
+    justify-content: start;
+    padding-left: 4.2rem;
+}
+
+/* Step 6 : subColumn */
+/* .logoBox{
+      background-color: #ffff00;
+  } */
+/* Step 7 : contentContainer */
+/* .logoBox  a{
+      background-color: #e69b66;
+  }
+  .logoBox figure{
+      background-color: #f56c0b;
+  } */
+
+.logoBox figure img {
+    /* background-color: #66e66c; */
+    height: 55px;
+    padding: 0.25rem;
+}
+
+/* Step 5 : column 2 */
+.navBlock {
+    /* background-color: #ee82ee; */
+}
+
+/* Step 6 : subColumn */
+.navBox {
+    /* background-color: #ffff00; */
+}
+
+/* Step 7 : contentContainer */
+/* input */
+.menu-toggle {
+    display: none;
+}
+
+/* label */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    border: #787676 solid 0.1rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    position: absolute;
+    top: 2.7rem;
+    right: 2rem;
+}
+
+.hamburger i {
+    /* background-color: #faebd7; */
+    /* padding: 0.5rem; */
+    color: #787676;
+    font-size: 2.75rem;
+    /* display: none; */
+}
+
+/* ul */
+.nav-links {
+    /* background-color: #ff6347; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* ul a */
+.nav-links li a {
+    /* background-color: #7c84d5; */
+    font-family: "Nunito", sans-serif;
+    color: #4d4d4d;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: capitalize;
+    padding: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000000;
+    font-weight: 200;
+    transition: color 0.1s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        background-color: #ffffff;
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        right: 0;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    .nav-links a {
+        /* background-color: #d9bc2c; */
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+}
