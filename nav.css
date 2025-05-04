@@ -19,7 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between; */
-
     width: 100%;
     background-color: #ffffff;
     padding: 2.35rem 0rem;
@@ -126,7 +125,7 @@
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media(max-width: 576px) {
 
     .hamburger {
         display: block;

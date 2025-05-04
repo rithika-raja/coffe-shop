@@ -77,7 +77,7 @@
     /* background-color: #0066ff; */
 }
 
-@media (width =360px) {
+@media (max-width: 576px) {
     .menuBox {
         text-align: center;
       }
